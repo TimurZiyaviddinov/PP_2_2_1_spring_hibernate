@@ -12,5 +12,4 @@ public interface CarDao {
 
     List<Car> listCars();
 
-    User getUserByCar(Car car);
 }

@@ -28,9 +28,5 @@ public class CarServiceImpl implements CarService {
         return carDao.listCars();
     }
 
-    @Transactional
-    @Override
-    public User getUserByCar(Car car) {
-        return carDao.getUserByCar(car);
-    }
+
 }
